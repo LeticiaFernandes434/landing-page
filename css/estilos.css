@@ -2,15 +2,19 @@ html {
     scroll-behavior: smooth;
 }
 
-#home {
-    /*imagem de fundo no home*/
+section {
+    padding: 60px 0;
     height: 100vh;
-    background: url("https://via.placeholder.com/1920x1080") center center no-repeat;
-    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
+}
+
+#home {
+    /*imagem de fundo no home*/
+    background: url("../img/fundo.png") center center no-repeat;
+    background-size: cover;
 }
 
 #home h1 {
@@ -19,15 +23,6 @@ html {
 
 #home p {
     font-size: 1.5rem;
-}
-
-section {
-    padding: 60px 0;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
 }
 
 .scroll-btn {

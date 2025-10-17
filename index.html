@@ -10,8 +10,8 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top">
-        <a class="navbar-brand" href="">Logo da empresa</a>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <a class="navbar-brand" href="#home">Logo da empresa</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -19,13 +19,13 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item">
-                    <a class="nav-link" href="">Sobre</a>
+                    <a class="nav-link" href="#sobre">Sobre</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Contato</a>
+                    <a class="nav-link" href="#contato">Contato</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">Localização</a>
+                    <a class="nav-link" href="#localizacao">Localização</a>
                 </li>
             </ul>
         </div>
@@ -35,15 +35,40 @@
         <div class="container">
             <h1>Página Inicial</h1>
             <p>Exemplo de Landing Page</p>
-            <div class="row">
-                <div class="col-md-4 col-sm-12">
-                    <!--
-                        vc pode criar linhas e colunas normalmente
-                        add componentes do bootstrap
-                        -->
-                </div>
-            </div>
-            <a href="" class="btn btn-primary scroll-btn">Sobre a empresa</a>
+
+            <table class="table table-striped table-responsive-sm table-light table-bordered table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Primeiro</th>
+                        <th>Último</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>1</th>
+                        <td>Mark</td>
+                        <td>Otto</td>
+                    </tr>
+                    <tr>
+                        <th>2</th>
+                        <td>Jacob</td>
+                        <td>Thornton</td>
+                    </tr>
+                    <tr>
+                        <th>3</th>
+                        <td>Larry</td>
+                        <td>the Bird</td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="3">www.teste.com.br</td>
+                    </tr>
+                </tfoot>
+            </table>
+
+            <a href="#sobre" class="btn btn-primary scroll-btn">Sobre a empresa</a>
         </div>
     </section>
     <!--section Sobre-->
@@ -51,7 +76,7 @@
         <div class="container text-center">
             <h1>Sobre a empresa</h1>
             <p>A empresa é...</p>
-            <a href="" class="btn btn-success scroll-btn">Fale Conosco</a>
+            <a href="#contato" class="btn btn-success scroll-btn">Fale Conosco</a>
         </div>
     </section>
     <!--section Contato-->
@@ -82,7 +107,7 @@
                     </form>
                 </div>
             </div>
-            <a href="" class="btn btn-danger scroll-btn">Localização</a>
+            <a href="#localizacao" class="btn btn-danger scroll-btn">Localização</a>
         </div>
     </section>
     <!--section Localização-->
@@ -90,7 +115,7 @@
         <div class="container text-center">
             <h1>Localização</h1>
             <p>Inserir Google Maps aqui</p>
-            <a href="" class="btn btn-danger scroll-btn">Página Inicial</a>
+            <a href="#home" class="btn btn-danger scroll-btn">Página Inicial</a>
         </div>
     </section>
     <footer>
