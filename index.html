@@ -6,12 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+     <link rel="shortcut icon" href="img/Elemento sem fundo .png" type="image/x-icon">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
-        <a class="navbar-brand" href="#home">Logo da empresa</a>
+         <img style="width: 100px;" href="#home" src="img/Elemento sem fundo .png" alt="logo">
+        <a class="navbar-brand" href="#home">TechSolutions</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
             <span class="navbar-toggler-icon"></span>
@@ -21,11 +24,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="#sobre">Sobre</a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#contato">Contato</a>
+                 <li class="nav-item">
+                    <a class="nav-link" href="#galeria">Galeria</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#localizacao">Localização</a>
+                    <a class="nav-link" href="#contato">Contato</a>
                 </li>
             </ul>
         </div>
@@ -33,99 +36,211 @@
     <!--section Home-->
     <section id="home" class="d-flex">
         <div class="container">
-            <h1>Página Inicial</h1>
-            <p>Exemplo de Landing Page</p>
+            <h1>Bem-vindo à TechSolutions!</h1>
+            <p>Inovação e tecnologia para impulsionar o futuro do seu negócio.</p>
 
             <table class="table table-striped table-responsive-sm table-light table-bordered table-hover">
                 <thead>
                     <tr>
-                        <th>#</th>
-                        <th>Primeiro</th>
-                        <th>Último</th>
+                
+                        <th>Serviços principais</th>
+                        <th>Por que escolher a TechSolutions?</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr>
-                        <th>1</th>
-                        <td>Mark</td>
-                        <td>Otto</td>
+                        <td>Desenvolvimento de Software Sob Medida</td>
+                        <td>+10 anos de experiência no mercado</td>
                     </tr>
                     <tr>
-                        <th>2</th>
-                        <td>Jacob</td>
-                        <td>Thornton</td>
+                        
+                        <td>Consultoria em Tecnologia e Inovação</td>
+                        <td>Equipe certificada e especializada</td>
                     </tr>
                     <tr>
-                        <th>3</th>
-                        <td>Larry</td>
-                        <td>the Bird</td>
+                        
+                        <td>Suporte Técnico e Infraestrutura de TI</td>
+                        <td>Soluções tecnológicas personalizadas</td>
+                    </tr>
+                     <tr>
+                        
+                        <td>Segurança da Informação</td>
+                        <td>Foco em resultados e inovação</td>
+                    </tr>
+                     <tr>
+                        
+                        <td>Atendimento personalizado ao seu negócio</td>
+                        <td>Atendimento próximo e de confiança</td>
                     </tr>
                 </tbody>
                 <tfoot>
                     <tr>
-                        <td colspan="3">www.teste.com.br</td>
+                        <td colspan="3">www.TechSolutions.com.br</td>
                     </tr>
                 </tfoot>
             </table>
 
-            <a href="#sobre" class="btn btn-primary scroll-btn">Sobre a empresa</a>
+            <a href="#sobre" class="btn btn-primary scroll-btn">Saiba mais</a>
         </div>
     </section>
+
     <!--section Sobre-->
     <section id="sobre" class="d-flex bg-light">
         <div class="container text-center">
-            <h1>Sobre a empresa</h1>
-            <p>A empresa é...</p>
-            <a href="#contato" class="btn btn-success scroll-btn">Fale Conosco</a>
+            <h1>Sobre a TechSolutions</h1>
+            <p>A TechSolutions é uma empresa especializada em desenvolver soluções tecnológicas sob medida para atender às necessidades de negócios em diferentes setores. Nosso compromisso é transformar desafios em oportunidades por meio da inovação, oferecendo serviços que combinam eficiência, segurança e qualidade. Com uma equipe de profissionais altamente capacitados, unimos experiência de mercado e visão estratégica para apoiar nossos clientes em sua jornada digital. Mais do que fornecedores, buscamos ser parceiros de confiança, entregando resultados que impulsionam o crescimento e fortalecem a competitividade..</p>
+
+            <div class="fotos1">
+                <img src="img/websites.jpeg" style="width: 250px;" alt="websites">
+                <img src="img/ideia_inovacao.jpeg" style="width: 250px;" alt="ideias">
+                <img src="img/solucao.png" style="width: 250px;" alt="soluções">
+            </div>
+
+            <a href="#galeria" class="btn btn-primary scroll-btn">Galeria</a>
         </div>
+         </section>
+
+ <!--section Galeria-->
+    <section id="galeria" class="d-flex bg-light">
+        <div class="container text-center">
+            <h1>Galeria</h1>
+            
+
+            <div id="carouselExample" class="carousel slide">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="img/tecnologi_humano.jpg" class="imgcarrossel" class="d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/integracao.jpg" class="imgcarrossel" class="d-block w-50" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="img/nuvem.jpg" class="imgcarrossel" class="d-block w-50" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Anterior</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Próximo</span>
+  </button>
+</div>
+<a href="#contato" class="btn btn-primary scroll-btn">Fale conosco</a>
+        </div>
+        
     </section>
+
     <!--section Contato-->
     <section id="contato" class="d-flex bg-light">
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col-md-6 col-sm-12">
-                    <h1>Fale Conosco</h1>
-                    <form>
-                        <div class="form-group">
-                            <label for="txtemail">Endereço de email</label>
-                            <input type="email" class="form-control" id="txtemail" placeholder="nome@exemplo.com">
-                        </div>
-                        <div class="form-group">
-                            <label for="sel_estadocivil">Estado Civil</label>
-                            <select class="form-control" id="sel_estadocivil">
-                                <option selected disabled>Escolha uma opção</option>
-                                <option value="Casado">Casado</option>
-                                <option value="Solteiro">Solteiro</option>
-                                <option value="Viúvo">Viúvo</option>
-                            </select>
-                        </div>
-                        <div class="form-group form-check">
-                            <input type="checkbox" class="form-check-input" id="chkemail">
-                            <label class="form-check-label" for="chkemail">Quer receber email?</label>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </form>
+                    <h1>Fale com a TechSolutions</h1>
+                    <p>Estamos prontos para ajudar a sua empresa a crescer com tecnologia.</p>
+                    <hr>
+
+    <div class="row">
+      <div class="col-sm-12 col-md-12">
+        <form action="" method="post">
+          <div class="form-group">
+            <label for="var_nome">Nome</label>
+            <input type="text" class="form-control" id="var_nome" placeholder="Seu nome" maxlength="100" minlength="10">
+          </div>
+          <div class="form-group">
+            <label for="var_email">E-mail</label>
+            <input type="email" class="form-control" id="var_email" placeholder="Seu email">
+          </div>
+          
+          <div class="mb-3">
+    <label for="mensagem" class="form-label">Mensagem</label>
+    <textarea class="form-control" id="mensagem" rows="3" required></textarea>
+    <div class="invalid-feedback">Escreva sua mensagem antes de enviar.</div>
+  </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="sim" id="var_novidades">
+            <label class="form-check-label" for="var_novidades" required>
+              Receber resposta por e-mail
+            </label>
+          </div>
+
+          <button type="submit" class="btn btn-primary my-3">Enviar mensagem </button>
+           <a href="#home" class="btn btn-info homebtn">Página Inicial</a>
+        </form>
+      </div>
                 </div>
             </div>
-            <a href="#localizacao" class="btn btn-danger scroll-btn">Localização</a>
         </div>
     </section>
-    <!--section Localização-->
-    <section id="localizacao" class="d-flex bg-light">
-        <div class="container text-center">
-            <h1>Localização</h1>
-            <p>Inserir Google Maps aqui</p>
-            <a href="#home" class="btn btn-danger scroll-btn">Página Inicial</a>
+   
+     <footer>
+    <!-- Footer -->
+    <section id="footer">
+      <div class="container">
+        
+        <div class="row text-center text-xs-center text-sm-left text-md-left">
+          <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>Integrante 1</h5>
+           <div class="card" style="width: 18rem;">
+  <img src="img/Mídia.jpg" class="card-img-top img-fixa"  alt="Otávio Lima">
+  <div class="card-body">
+    <p class="card-text" style="color: black;">Otávio Fernando de Lima</p>
+  </div>
+</div>
+
+          </div>
+           <div class="col-xs-12 col-sm-4 col-md-4">
+            <h5>integrante 2</h5>
+           <div class="card" style="width: 18rem;">
+  <img src="img/Letícia.jpg" class="card-img-top img-fixa" alt="Letícia">
+  <div class="card-body">
+    <p class="card-text" style="color: black;">Letícia Fernandes da Silva</p>
+  </div>
+</div>
+
+          </div>
         </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-5">
+            <ul class="list-unstyled list-inline social text-center">
+              <li class="list-inline-item"><a href="https://pt-br.facebook.com/"><i
+                    class="fa fa-facebook"></i></a></li>
+              <li class="list-inline-item"><a href="https://x.com/"><i
+                    class="fa fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a href="https://www.instagram.com/"><i
+                    class="fa fa-instagram"></i></a></li>
+
+            </ul>
+          </div>
+          <hr>
+        </div>
+        <div class="row">
+          <div class="col-xs-12 col-sm-12 col-md-12 mt-2 mt-sm-2 text-center text-white">
+            <p><u><a href="https://www.nationaltransaction.com/">National Transaction Corporation</a></u> is a
+              Registered MSP/ISO of Elavon, Inc. Georgia [a wholly owned subsidiary of U.S. Bancorp, Minneapolis, MN]
+            </p>
+            <p class="h6">© All right Reversed.<a class="text-green ml-2" href="https://www.sunlimetech.com"
+                target="_blank">Sunlimetech</a></p>
+          </div>
+          <hr>
+        </div>
+      </div>
+      
     </section>
-    <footer>
-        <p>rodapé</p>
-    </footer>
+    <!-- ./Footer -->
+  </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" ></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js"></script>
+
 </body>
 
 </html>
